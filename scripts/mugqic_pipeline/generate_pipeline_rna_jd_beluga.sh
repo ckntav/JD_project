@@ -5,7 +5,7 @@ mkdir -p $HOME/projects/def-stbil30/chris11/JD_project/output/rna-pipeline-hg38
 
 rnaseq.py --job-scheduler slurm -s 1-14 \
   --log debug \
-  --readsets raw/readset_20200923.txt \
+  --readsets raw/readset_20200928.txt \
   -o output/rna-pipeline-hg38 \
   --no-json \
   --config $MUGQIC_PIPELINES_HOME/pipelines/rnaseq/rnaseq.base.ini \
