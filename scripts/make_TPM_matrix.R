@@ -4,7 +4,6 @@ library(GenomicRanges)
 library(GenomicFeatures)
 library(tidyverse)
 
-
 # Load raw counts
 raw_counts <- read_tsv("output/rna-pipeline-hg38/DGE/rawCountMatrix.csv")
 colnames(raw_counts)
